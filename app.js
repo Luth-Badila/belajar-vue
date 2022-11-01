@@ -1,15 +1,15 @@
 const app = Vue.createApp({
   data() {
     return {
+      showBooks: true,
       title: "The Final Episode",
       author: "Nikola Zigic",
       age: 39,
     };
   },
   methods: {
-    changeTitle(title) {
-      // this.title = "World of Valhalla";
-      this.title = title;
+    toggleShowBooks() {
+      this.showBooks = !this.showBooks;
     },
   },
 });
