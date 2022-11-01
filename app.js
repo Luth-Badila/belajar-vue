@@ -7,8 +7,9 @@ const app = Vue.createApp({
     };
   },
   methods: {
-    changeTitle() {
-      this.title = "World of Valhalla";
+    changeTitle(title) {
+      // this.title = "World of Valhalla";
+      this.title = title;
     },
   },
 });
