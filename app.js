@@ -8,16 +8,19 @@ const app = Vue.createApp({
           title: "name of the window",
           author: "nikola zigic",
           img: "assets/bgIMG.png",
+          isFav: true,
         },
         {
           title: "dragon of metal",
           author: "lee chung young",
           img: "assets/bgIMGGreen.png",
+          isFav: false,
         },
         {
           title: "metal slug",
           author: "marko",
           img: "assets/bgIMGYellow.png",
+          isFav: true,
         },
       ],
     };
