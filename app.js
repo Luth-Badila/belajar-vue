@@ -29,8 +29,8 @@ const app = Vue.createApp({
     toggleShowBooks() {
       this.showBooks = !this.showBooks;
     },
-    toggleFav(item) {
-      item.isFav = !item.isFav;
+    toggleFav(book) {
+      book.isFav = !book.isFav;
     },
   },
   computed: {
